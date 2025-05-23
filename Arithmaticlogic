@@ -1,0 +1,19 @@
+// WAP to take input from user and apply arithmatic logic (+,-,*,/,%)
+
+#include<stdio.h>
+int main()
+{
+int a,b;
+printf("Enter the value of a:");
+scanf("%d",&a);
+printf("\nEnter the value of b:");
+scanf("%d",&b);
+
+printf("\nThe Sum of %d and %d is %d",a,b,a+b);               
+printf("\nThe subtraction of %d and %d is %d",a,b,a-b);
+printf("\nThe multipication of %d and %d is %d",a,b,a*b);
+printf("\nThe division of %d and %d is %d",a,b,a/b);
+printf("\nThe modlus of %d and %d is %d",a,b,a%b);
+
+
+}
