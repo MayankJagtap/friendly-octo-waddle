@@ -1,0 +1,30 @@
+// WAP to take input from user and print Area of circle and rectangle using method overloading in java
+
+import java.util.*;
+class Run
+{
+	public double show(double r)
+	{
+		 System.out.println("The area of circle of radius "+r+" is :"+3.14*r*r);
+return 0;	 
+	}
+	public double show(double l, double b)
+	{
+		System.out.println("The area of rectangle whose length ="+l+"breadth="+b+"is : "+l*b);
+		return 0;
+	}
+	public static void main (String args[])
+	{
+		Scanner sc= new Scanner (System.in);
+		Run t1=new Run();
+		System.out.print("Enter the value of r :");
+		
+		 double r= sc.nextDouble();
+		double circleShow=t1.show(r);
+		System.out.print("Enter the value of l :");
+		double l= sc.nextDouble();
+		 System.out.print("Enter the value of b :");
+		double b= sc.nextDouble();
+		 double rectangleShow=t1.show(l,b);
+	}
+}
