@@ -1,19 +1,23 @@
 // WAP to take input from user and apply arithmatic logic (+,-,*,/,%)
 
-#include<stdio.h>
-int main()
+
+import java.util.*;
+class Main
 {
-int a,b;
-printf("Enter the value of a:");
-scanf("%d",&a);
-printf("\nEnter the value of b:");
-scanf("%d",&b);
+public static void main(String args[])
+  {
+Scanner sc= new Scanner(System.in);
+Main t1=new Main();
+System.out.print("Enter the value of a :");
+double a=sc.nextDouble();
+System.out.print("Enter the value of b :");
+double b=sc.nextDouble();
 
-printf("\nThe Sum of %d and %d is %d",a,b,a+b);               
-printf("\nThe subtraction of %d and %d is %d",a,b,a-b);
-printf("\nThe multipication of %d and %d is %d",a,b,a*b);
-printf("\nThe division of %d and %d is %d",a,b,a/b);
-printf("\nThe modlus of %d and %d is %d",a,b,a%b);
+System.out.println("\nThe Sum of "+a+" and "+b+" is :"+(a+b));               
+System.out.println("The subtraction of "+a+" and "+b+ "is :"+(a-b));
+System.out.println("The multipication of "+a+" and "+b+ "is :"+(a*b));
+System.out.println("The division of "+a+" and "+b+ "is :"+(a/b));
+System.out.println("The modlus of "+a+" and "+b+" is :"+(a%b));
 
-
+   }
 }
