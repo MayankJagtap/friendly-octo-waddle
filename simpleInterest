@@ -1,0 +1,23 @@
+//WAP to take input from user and calculate the simple interest
+
+
+import java.util.*;
+class Main {
+    
+    public static void main(String[] args) {
+        double principle,rate,time,simpleInterest;
+        Scanner sc= new Scanner(System.in);
+         System.out.print("Enter the principle :");
+        principle=sc.nextDouble();
+        
+        System.out.print("Enter the rate :");
+        rate=sc.nextDouble();
+        
+        System.out.print("Enter the time :");
+    
+    time=sc.nextDouble();
+        
+        simpleInterest=(principle*rate*time)/100;
+        System.out.println("simple interest of p= "+principle+" ,r= "+rate+" and t= "+time+" is : "+simpleInterest);
+    }
+}
