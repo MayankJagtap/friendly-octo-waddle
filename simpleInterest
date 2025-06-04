@@ -21,3 +21,5 @@ class Main {
         System.out.println("simple interest of p= "+principle+" ,r= "+rate+" and t= "+time+" is : "+simpleInterest);
     }
 }
+
+
