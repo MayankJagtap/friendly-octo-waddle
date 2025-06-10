@@ -1,0 +1,21 @@
+//WAP to take two number from user and swap with the third variable.
+
+import java.util.*;
+class Test
+  {
+public static void main(String args[])
+     {
+int a,b;
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter the value of a :");
+a=sc.nextInt();
+System.out.print("Enter the value of b :");
+b=sc.nextInt();
+
+System.out.println("Before swapping a="+a+" and b="+b);
+int temp=a;
+a=b;
+b=temp;
+System.out.println("After swapping a="+a+" and b="+b);
+    }
+}
