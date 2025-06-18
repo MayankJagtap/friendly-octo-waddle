@@ -1,0 +1,20 @@
+//WAP to take a number from user and calculate the factorial.
+
+import java.util.*;
+class No
+{
+public static void main(String args[])
+  {
+int factorial=1,temp;
+Scanner sc =new Scanner(System.in);
+System.out.print("Enter the number to find the factorial : ");
+int i=sc.nextInt();
+temp=i;
+while(temp>1)
+	{
+	 factorial=factorial*temp;
+	 temp--;
+	  }
+	System.out.println("factorial of "+i+" is : "+factorial);
+  }
+}
