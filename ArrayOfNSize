@@ -1,0 +1,23 @@
+// An Array of n size
+class Test
+{
+	public static void main (String args [])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the no. for size of array :");
+				int a=sc.nextInt();
+				int n[]=new int [a];
+				for(int i=0;i<a;i++)
+				{
+                System.out.print("Entered the value at "+(0+i)+" position :");
+				        n[i]=sc.nextInt();
+				
+	      }
+	             System.out.println("You have entered ");
+	            for(int i:n)
+				       {
+              System.out.print(i+" " );				
+	             }
+   }
+	
+}
